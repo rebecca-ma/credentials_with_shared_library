@@ -2,9 +2,9 @@
 
 // Example Jenkinsfile using the pipeline shared library
 
-@Library('jenkins_shared_library') _
+@Library('jenkins_shared_library@officialArtifactVersioning') _
 
-continuousIntegrationPipeline(
+basicCredentialsExamplePipeline(
         appName: 'person',
         dockerImageName: 'person',
         appComponentName: 'person-service',
