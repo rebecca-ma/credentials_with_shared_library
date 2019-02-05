@@ -15,4 +15,5 @@ basicCredentialsExamplePipeline(
         slackChannel: '#cr_releases',
         codeCoveragePct: '0.5',
         codeCoverageDefFile: 'person-business/build.gradle'
+        officialArtifactVersioning: 'true'
         )
