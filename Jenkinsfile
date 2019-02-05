@@ -14,6 +14,6 @@ basicCredentialsExamplePipeline(
         jacocoReportDir: 'person-business/build/reports/jacoco/test/html',
         slackChannel: '#cr_releases',
         codeCoveragePct: '0.5',
-        codeCoverageDefFile: 'person-business/build.gradle'
+        codeCoverageDefFile: 'person-business/build.gradle',
         officialArtifactVersioning: 'true'
         )
